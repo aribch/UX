@@ -1,0 +1,194 @@
+body {
+    background: #FFEBBA;
+    display: flex;
+    justify-content: center;
+    /*align-items: center; мешает и делает всё в центре*/
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-family: Arial, serif;
+    font-size: 2.5rem;
+    margin: 3rem 0;
+}
+
+.email--password{
+    font-family: Arial, serif;
+    font-size: 1.25rem;
+}
+
+.input{
+    width: 35rem;
+    height: 3rem;
+    border: 1px solid #000;
+    background: #FFF9E9;
+    margin: 0 3rem 1rem 0;
+    font-size: 1.5rem;
+}
+
+.button{
+    width: 20rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    background: #CEE9C4;
+    font-family: Arial, serif;
+    font-size: 1.5rem;
+    margin: 3rem 0;
+}
+
+.centered-div {
+    text-align: center;
+}
+
+.register{
+    text-align: center;
+    font-family: Arial, serif;
+    font-size: 1.25rem;
+}
+
+.reg--log--link{
+    color: #125E8A;
+}
+
+.note {
+    position: relative;
+}
+
+.inside--note{
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+}
+
+.blue--text{
+    color: #125E8A;
+    font-family: Arial, serif;
+    font-size: 1.5rem;
+}
+
+.text{
+    font-family: Arial, serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.button a{
+    text-decoration: none;
+    color: #000000; /* Цвет текста кнопки */
+    padding: 0 4rem;
+}
+
+.redDot{
+    position: absolute;
+    top: 0.25rem;
+    left: 11rem;
+}
+
+.small--text{
+    font-family: Arial, serif;
+    font-size: 0.8rem;
+}
+
+.inside--note--task{
+    position: absolute;
+    top: 11rem;
+    left: 2rem;
+}
+
+.inside--note--task .text{
+    font-family: Arial, serif;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.inside--note--line{
+    position: absolute;
+    top: 11rem;
+}
+
+.line{
+    font-family: Arial, serif;
+    font-size: 1rem;
+    margin: 1.6rem;
+}
+
+.redDot--inside--task{
+    position: absolute;
+    top: 0.5rem;
+    left: 9.2rem;
+}
+
+.icon--inside--task{
+    position: absolute;
+    top: 4.30rem;
+    left: 7.12rem;
+}
+
+.search--inside--task{
+    position: absolute;
+    top: 25rem;
+    left: 16.8rem;
+}
+
+.checkbox{
+    position: absolute;
+    top: 23rem;
+    left: 9.5rem;
+    transform: scale(7);
+    border-width: 10rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem 3rem;
+}
+
+.text2{
+    font-family: Arial, serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem 2rem;
+}
+
+.plus{
+    position: absolute;
+    top: 7.7rem;
+    left: 4rem;
+}
+
+.button--in--note{
+    width: 18.75rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    background: #CEE9C4;
+    font-family: Arial, serif;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 23rem;
+    left: 1rem;
+}
+
+.button--in--note--red{
+    width: 18.75rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    background: #FFD4D4;
+    font-family: Arial, serif;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 23rem;
+    left: 1rem;
+}
+
+.user{
+    position: absolute;
+    top: 20rem;
+    left: 7.12rem;
+}
