@@ -2,7 +2,6 @@ body {
     background: #FFEBBA;
     display: flex;
     justify-content: center;
-    /*align-items: center; мешает и делает всё в центре*/
     align-items: center;
     flex-direction: column;
 }
@@ -191,4 +190,27 @@ body {
     position: absolute;
     top: 20rem;
     left: 7.12rem;
+}
+
+.sidebar{
+    width: 10rem;
+    background-color: #CEE9C4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar a{
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    font-family: Arial, serif;
+}
+
+.sidebar a:hover:not(.active){
+    background-color: #90BA81;
+    color: white;
 }
